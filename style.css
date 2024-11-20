@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.navigation{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    height: 120px;
+    background-color: black;
+    
+    align-items: center;
+}
+.navi-left{
+    padding-left: 50px;
+    font-size: 25px;
+    align-items: center;
+   
+
+}
+.logo-img{
+    height: 100px;
+}
+.navi-right{
+    font-size: 35px;
+    padding-right: 30px;
+    
+}
+.navi{
+    
+    margin: 10px;
+    padding-right: 10px;
+    color: rgba(218, 223, 223, 0.792);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    align-items: center;
+    background-color: rgb(16, 16, 16);
+
+
+}
+.home-left{
+    width: 60%;
+    padding-left: 100px;
+    color: rgba(243, 248, 248, 0.792);
+    
+    
+}
+.home-pic{
+    height: 700px;
+}
+.h-l1{
+    font-size: 45px;
+    font-family: bold;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    align-items: center;
+   
+
+}
+.about-left{
+    width: 40%;
+    
+
+}
+.about-logo{
+    height: 700px;
+}
+.about-right{
+    width: 60%;
+    color: aliceblue;
+    font-size: 45px;
+
+}  
+.services{
+    text-align: center;
+    color: rgba(115, 237, 235, 0.792);
+    height: 90vh;
+    background-color: rgb(16, 16, 16);
+    margin: 0;
+}
+.serv-h{
+    font-size: 100px;
+    padding-top: 50px;
+    font-family: "PT Serif", serif;
+}
+.serv-sub{
+    display: flex;
+    flex-direction: row;
+    
+} 
+.serv{
+    border: solid blueviolet;
+    background-color: rgb(71, 69, 69);
+    margin: 20px;
+    font-size: 25px;
+    padding: 10px;
+    width: 30%;
+
+}
+.button-1{
+    font-size: 30px;
+    background-color:  rgba(115, 237, 235, 0.792);
+    font-family: "PT Serif", serif;
+    padding: 10px;
+    align-items: center;
+}
+.portfolio{
+    text-align: center;
+    height: 90vh;
+    background-color: rgb(16, 16, 16);
+    color:rgba(115, 237, 235, 0.792) ;
+   
+}
+.port-sub{
+    display: flex;
+    flex-direction: row;
+    border: solid rgb(16, 16, 16);
+    margin: 50px;
+}  
+.port-im{
+    width: 400px;
+    height: 300px;
+
+}
+
+.port-img{
+    
+    border: solid rgb(16, 16, 16);
+    margin: 50px;
+   
+}  
+.contact-info{
+    color: rgb(190, 205, 176);
+    text-align: center;
+    font-size: 30px;
+}
+.contact-img{
+    height: 50px;
+    align-items: center;
+}
+.ser-h1{
+    color: rgb(190, 205, 176);
+    font-size: 100px;
+    text-align: center;
+}
